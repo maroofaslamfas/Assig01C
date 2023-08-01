@@ -1,3 +1,4 @@
+
 function store_car_Info(manufecturer: string, model: string, obj?: object){
     if (!obj) {
         let car_Info = {Manufacturer: manufecturer, Model_Name: model};
